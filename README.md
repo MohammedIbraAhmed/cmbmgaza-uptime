@@ -10,7 +10,7 @@ so an alert still goes out when the server itself is down.
 | Activities app | https://app.cmbmgaza.org/api/health reports `ok` |
 | Activities list the website shows | https://app.cmbmgaza.org/api/public/activities answers |
 | Mail server | mx.cmbmgaza.org:465 greets like a mail server |
-| Certificates | cmbmgaza.org, app.cmbmgaza.org and mx.cmbmgaza.org have 14+ days left |
+| Certificates | cmbmgaza.org, app.cmbmgaza.org and mx.cmbmgaza.org have 14+ days left; so does the certificate on the server itself (asked directly, since Cloudflare shows visitors its own) |
 
 **When something fails** (twice, 20 seconds apart) an issue labelled `down` is opened and GitHub
 emails the repository owner. While the problem lasts the issue is only updated (with a comment if
